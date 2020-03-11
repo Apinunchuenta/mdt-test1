@@ -1,0 +1,170 @@
+body{
+	background-color: rgb(18, 46, 63);
+}
+span{
+	background-color: #F9F790;
+}
+h1{
+	color: #59859E;
+    font-size: 30pt;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+h2{
+	color: #F9F790;
+    font-size: 30pt;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+p{
+    margin-top: -50px;
+    font-size: 15pt;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+
+li{
+    margin-top: -5px;
+    font-size: 15pt;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+.ref{
+    font-size: 25pt;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+#header .pic5 img{
+    width: 30%;
+    border: 5px dotted rgb(255, 255, 255);
+    border-radius: 80px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+.c0{
+    font-family: 'Prompt', sans-serif;
+    font-size: 30pt;
+    color: white;
+    background-color: #F29089;
+  }
+  .flex_containerc0{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.flex_containerc0 > div{
+    width: 300px;
+    text-align: center;
+    margin-bottom: -300px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap:10px;
+	font-size: 30px;
+    text-align: center;
+}
+
+.grid-container > div{
+	border: 2px solid black;
+    font-size:19px;
+    text-align: center;
+    background-color: #59859E;
+}
+.pic img{
+    width: 100%;
+    border: 5px dotted rgb(255, 255, 255);
+    border-radius: 80px;
+    vertical-align: middle;
+}
+.pic{
+margin-top: 200px;
+}
+#header{
+	grid-column: 1/span 2;
+}
+#header img{
+	width: 20%;
+}
+
+
+#main1{
+	grid-column: 1/span 1;
+}
+#main2{
+    grid-column: 2/span 1;
+}
+#main2 img{
+	width: 50%;
+}
+
+#footer{
+    grid-column: 1/span 2;
+}
+
+
+a:link{
+    text-decoration : none;
+  }
+a:visited{
+    text-decoration : none;
+    color: white;
+  }
+a:hover{
+    text-decoration : none;
+    color: #F2CA6B;
+  }
+  a:active{
+    text-decoration : none;
+    color: #E3755E;
+  }
+
+@media only screen and (max-width: 500px) {
+	.grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap:10px;
+    }
+    #header{
+        grid-column: 1/ span 1;
+    }
+    #main1{
+        grid-column: 1/ span 1;
+    }
+    #main2{
+		grid-column: 1/ span 1;
+	}
+    #footer{
+        grid-column: 1/span 1;
+    }
+
+}
+
+
+.button {
+    padding: 15px 25px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #E25150;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgb(182, 52, 52)}
+  
+  .button:active {
+    background-color: rgb(128, 42, 42);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Prompt|Quicksand:700&display=swap')
